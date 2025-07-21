@@ -32,7 +32,7 @@ Run the Python script to read `rv32i.yml` and generate the C header file `instru
 
 ```bash
 python python/yaml_to_c.py data/rv32i.yml C/instructions.h
-## Step 2:Compile the C programme
+## Step 2:Compile the C programme 
 Use the provided Makefile to build the C executable.
 make -C C/
 
